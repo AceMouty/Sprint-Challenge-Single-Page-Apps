@@ -25,11 +25,11 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 - [ ] Explain benefit(s) using `client-side routing`?
-> Answer:
+> Answer: Allows for faster intra app navigation due to all app data going to the client upon first request. Also with SPA's you dont actualy have to refresh your browser.
 - [ ] What does AJAX stand for?
-> Answer:
+> Answer: Async Javascript And XML
 - [ ] What are `controlled components` in React?
-> Answer:
+> Answer: A controlled component is when you track state in that specific component instead of letting a vanilla component track its own state. This gives you full control over someting like a form and its behavior.
 
 
 ## Project Set Up
