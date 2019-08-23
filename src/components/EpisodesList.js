@@ -9,7 +9,7 @@ function EpisodesList () {
 	useEffect(() => {
 		axios('https://rickandmortyapi.com/api/episode/')
 		.then(res => setEpisodes(res.data.results))
-	})
+	},[])
 
 	if(!episodes) return <h2>Loading...</h2>
 
