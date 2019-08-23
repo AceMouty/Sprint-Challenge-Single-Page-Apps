@@ -5,6 +5,7 @@ import Header from "./components/Header.js";
 // Main components of the app
 import WelcomePage from './components/WelcomePage';
 import CharacterList from './components/CharacterList';
+import LocationList from './components/LocationsList';
 
 // Styles
 import './index.css'
@@ -20,7 +21,11 @@ export default function App() {
 			{/* <WelcomePage /> */}
 
 			{/* Characters View */}
-			<CharacterList />
+			{/* <CharacterList /> */}
+
+			{/* Location View */}
+			<LocationList />
+
 
     </main>
   );
