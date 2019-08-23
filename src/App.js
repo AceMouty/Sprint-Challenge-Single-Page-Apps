@@ -6,6 +6,7 @@ import Header from "./components/Header.js";
 import WelcomePage from './components/WelcomePage';
 import CharacterList from './components/CharacterList';
 import LocationList from './components/LocationsList';
+import EpisodeList from './components/EpisodesList';
 
 // Styles
 import './index.css'
@@ -24,8 +25,10 @@ export default function App() {
 			{/* <CharacterList /> */}
 
 			{/* Location View */}
-			<LocationList />
+			{/* <LocationList /> */}
 
+			{/* Episodes */}
+			<EpisodeList/>
 
     </main>
   );
