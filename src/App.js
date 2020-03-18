@@ -11,7 +11,6 @@ export default function App() {
     <main>
       <Header />
 			<TabNav />
-			
     </main>
   );
 }
