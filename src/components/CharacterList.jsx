@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
+import { v4 as uuid } from 'uuid'
 
 import CharacterCard from './CharacterCard';
 
@@ -19,7 +20,7 @@ export default function CharacterList() {
   return (
     <section className="character-list grid-view">
 			{characters.map(character => {
-				return <CharacterCard key={Date.now()} character={character} />
+				return <CharacterCard key={uuid()} character={character} />
 			})}
     </section>
   );

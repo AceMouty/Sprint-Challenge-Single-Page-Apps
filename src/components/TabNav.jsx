@@ -1,5 +1,5 @@
 import React from "react";
-import { Tab, Menu} from "semantic-ui-react";
+import { Tab, Menu, Icon } from "semantic-ui-react";
 import { NavLink, Route } from "react-router-dom";
 import WelcomePage from './WelcomePage';
 import CharacterList from './CharacterList';
@@ -13,6 +13,7 @@ const panes = [
   {
     menuItem: (
       <Menu.Item key='home' as={NavLink} to="/">
+        <Icon name={"home"} size={"large"}/>
 				Home
       </Menu.Item>
     ),
@@ -21,6 +22,7 @@ const panes = [
 	{
     menuItem: (
       <Menu.Item key='characters' as={NavLink} activeClassName="active" to="/character">
+        <Icon name={"users"} size={"large"}/>
 				Characters
       </Menu.Item>
     ),
@@ -29,6 +31,7 @@ const panes = [
 	{
     menuItem: (
       <Menu.Item key='locations' as={NavLink} activeClassName="active" to="/location">
+        <Icon name={"map outline"} size={"large"}/>
 				Locations
       </Menu.Item>
     ),
@@ -37,6 +40,7 @@ const panes = [
 	{
     menuItem: (
       <Menu.Item key='episodes' as={NavLink} activeClassName="active" to="/episode">
+        <Icon name={"video camera"} size={"large"}/>
 				Episodes
       </Menu.Item>
     ),

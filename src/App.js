@@ -1,6 +1,6 @@
 import React from "react";
-import TabNav from "./components/TabNav.js";
-import Header from "./components/Header.js";
+import TabNav from "./components/TabNav.jsx";
+import Header from "./components/Header.jsx";
 
 // Styles
 import './index.css'
