@@ -11,7 +11,7 @@ export default function LocationsList() {
 		.then(res => setLocations(res.data.results))
 	}, [])
 
-	if(!locations) return <h2>Loading</h2>
+	if(!locations) return <h2>Loading...</h2>
 
 	return(
 		<section className="character-list grid-view">
